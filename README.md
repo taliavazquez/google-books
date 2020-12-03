@@ -26,7 +26,8 @@ Feel free to reach out to me with any questions, contact me through my portfolio
 
 ## Project Links:
 - [Repo](https://github.com/taliavazquez/google-books)
-- [Heroku Deployed Site](https://tv-google-books.herokuapp.com/)
+- [Heroku Deployed Site](https://git.heroku.com/tv-google-books.git
+)
 
 © 2020 Talia Vazquez
 
