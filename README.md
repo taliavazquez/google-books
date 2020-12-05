@@ -1,6 +1,6 @@
 # Google books
 
-![google books demo](.client/public/demo.png)
+![google books demo](./client/public/demo.png)
 ## Description
 
 This is a book search engine using Node, React, Express, Axios, Mongoose, and MongoDB 
