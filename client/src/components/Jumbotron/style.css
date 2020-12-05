@@ -1,0 +1,17 @@
+.jumbotron {
+    box-shadow: 5px 5px 7px 0px rgba(135,135,135,0.83);
+    background-image: url("../../utils/images/bookshelve-with-books-background-library-vector-20657555.jpg");
+    background-size: cover;
+    
+    height: 500px;
+    background-position: center;
+}
+
+.myText {
+    opacity: 1;
+    color: rgb(68, 180, 245);
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    transform: translateY(100px)
+}
