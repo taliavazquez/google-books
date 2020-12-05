@@ -14,7 +14,7 @@ class ResultList extends Component {
             title={book.title}
             link={book.link}
             authors={book.authors && book.authors.length > 1 ? book.authors.join(", ") : book.authors}
-            image={book.image ? book.image : "https://previews.123rf.com/images/pavelstasevich/pavelstasevich1811/pavelstasevich181101065/112815953-no-image-available-icon-flat-vector.jpg"}
+            image={book.image ? book.image : "https://previews.123rf.com/images/dp3010/dp30101501/dp3010150100032/35946610-brown-leather-book-cover-on-white-with-long-shadow.jpg"}
             description={book.description}
             deleteGoogleBook={this.props.deleteGoogleBook}
             />

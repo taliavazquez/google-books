@@ -1,31 +1,39 @@
 {
   "name": "google-books",
   "version": "1.0.0",
-  "description": "Google Books",
+  "description": "This is a book search engine using Node, React, Express, Axios, Mongoose, and MongoDB",
   "main": "server.js",
   "scripts": {
-    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
-    "start:prod": "node server.js",
+    // "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start": "node server.js",
     "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
     "client": "cd client && npm run start",
     "install": "cd client && npm install",
     "build": "cd client && npm run build",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "ng build --prod"
   },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "concurrently": "^4.1.0",
-    "nodemon": "^1.18.7"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taliavazquez/google-books.git"
   },
+  "keywords": [
+    "books",
+    "search",
+    "book",
+    "log",
+    "Google",
+    "books"
+  ],
+  "author": "Talia Vazquez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/taliavazquez/google-books/issues"
+  },
+  "homepage": "https://github.com/taliavazquez/google-books#readme",
   "dependencies": {
-    "axios": "^0.19.2",
-    "bootstrap": "^4.5.3",
+    "axios": "^0.21.0",
     "express": "^4.17.1",
     "if-env": "^1.0.4",
-    "mongoose": "^5.11.4",
-    "popper": "^1.0.1",
-    "react": "^17.0.1",
-    "react-router-dom": "^5.2.0"
+    "mongoose": "^5.11.4"
   }
 }

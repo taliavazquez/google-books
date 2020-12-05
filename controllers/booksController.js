@@ -1,5 +1,6 @@
 const db = require("../models");
 
+// Defining methods for the booksController
 module.exports = {
     findAll: function(req, res) {
       db.GoogleBooks
@@ -17,6 +18,12 @@ module.exports = {
     save: function(req, res) {
       db.GoogleBooks
         .create(req.body)
+        .then(dbModel => res.json(dbModel))
+        .catch(err => res.status(422).json(err));
+    },
+    update: function(req, res) {
+      db.GoogleBooks
+        .findOneAndUpdate({ _id: req.params.id }, req.body)
         .then(dbModel => res.json(dbModel))
         .catch(err => res.status(422).json(err));
     },
