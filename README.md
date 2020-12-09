@@ -5,10 +5,6 @@
 
 This is a book search engine using Node, React, Express, Axios, Mongoose, and MongoDB 
 
-## Credits
-
-Aldo Carrillo, Ana Luna, Tim Sanders, Nicholas Konzen and my Tutor.
-
 ## Online Usage:
     In order to use this you will click on the deployed link below.
     
